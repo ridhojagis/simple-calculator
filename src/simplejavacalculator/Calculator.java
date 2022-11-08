@@ -33,13 +33,13 @@ public class Calculator {
         if (mode == BiOperatorModes.normal) {
             return num2;
         }
-        if (mode == BiOperatorModes.add) {
-            if (num2 != 0) {
-                return num1 + num2;
-            }
-
-            return num1;
-        }
+//        if (mode == BiOperatorModes.add) {
+//            if (num2 != 0) {
+//                return num1 + num2;
+//            }
+//
+//            return num1;
+//        }
         if (mode == BiOperatorModes.minus) {
             return num1 - num2;
         }
