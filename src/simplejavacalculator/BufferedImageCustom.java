@@ -15,8 +15,8 @@ class BufferedImageCustom {
       Image image;
       
       InputStream bis = getClass().getResourceAsStream("/resources/icon/icon.png");
-      BufferedImage bImage2 = ImageIO.read(bis);
-      image = bImage2;
+//      BufferedImage bImage2 = ImageIO.read(bis);
+//      image = bImage2;
       
       return image;
    }       
